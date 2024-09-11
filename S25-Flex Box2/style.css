@@ -1,0 +1,169 @@
+
+
+
+.container{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    margin: 5px;
+    flex-wrap: WRAP;
+
+
+}
+.items{
+    font-size: 2rem;
+    color: aliceblue;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+
+}
+
+
+
+
+
+.letters1{
+    background-color: aqua;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    
+    
+    
+    
+}
+.letters2{
+    background-color: aqua;
+   
+    text-align: center;
+    
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    
+    
+
+}
+.letters3{
+    background-color: aqua;
+   
+    text-align: center;
+    
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+.alphabets{
+   
+    background-color: rgb(0, 0, 255);
+    
+}
+.numbers1{
+    background-color:yellow;
+   
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+   
+    position: relative;
+    left: 350px;
+    bottom: 910px;
+    
+
+}
+.numbers2{
+    background-color: yellow;
+    
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    
+    position: relative;
+    left: 350px;
+    bottom: 910px;
+
+}
+.numbers3{
+    background-color:yellow;
+    
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: end;
+    
+    position: relative;
+    left: 350px;
+    bottom: 910px;
+}
+.numericals{
+    
+    background-color: rgb(255, 8, 0);
+    
+
+
+}
+.smallLetters1{
+    background-color:deeppink;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+   position: relative;
+    left: 700px;
+    bottom: 1820px;
+
+}
+.smallLetters2{
+    background-color:deeppink;
+    
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+   
+    position: relative;
+    left: 700px;
+    bottom: 1820px;
+}
+.smallLetters3{
+    background-color: deeppink;
+    
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: start;
+    
+    position: relative;
+    left: 700px;
+    bottom: 1820px;
+}
+.smallAlphabets{
+    
+    background-color: green;
+    
+
+}
+
+.allLetters{
+    width:500px ;
+    height: 300px;
+    position: relative;
+    left: 1100px;
+    bottom: 2730px;
+    align-content: space-around;
+    background-color: rgb(169, 28, 75);
+}
+.allLetters2{
+    align-content: space-between;
+    background-color:lightcoral;
+}
+.letters2{
+    color:magenta ;
+    background-color:grey;
+}
+.allLetters3{
+    align-content: space-evenly;
+    background-color: rgb(38, 255, 0);
+}
+
